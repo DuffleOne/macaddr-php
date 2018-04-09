@@ -1,0 +1,24 @@
+{
+    "name": "duffleman/macaddr",
+    "description": "PHP tool to get the systems mac addresses",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Miller",
+            "email": "git@duffleman.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Duffleman\\MacAddr\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/process": "^4.1@dev"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.1@dev"
+    }
+}
